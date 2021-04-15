@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem_With_OOP", "Problem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem_With_OOP_2", "Problem_With_OOP_2\Problem_With_OOP_2.csproj", "{77063066-A44B-4C49-9F56-214075EED2DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem_With_OOP_3", "Problem_With_OOP_3\Problem_With_OOP_3.csproj", "{63D7EF6C-4169-4C25-A16E-C47245D1C296}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{77063066-A44B-4C49-9F56-214075EED2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77063066-A44B-4C49-9F56-214075EED2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77063066-A44B-4C49-9F56-214075EED2DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63D7EF6C-4169-4C25-A16E-C47245D1C296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63D7EF6C-4169-4C25-A16E-C47245D1C296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63D7EF6C-4169-4C25-A16E-C47245D1C296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63D7EF6C-4169-4C25-A16E-C47245D1C296}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
