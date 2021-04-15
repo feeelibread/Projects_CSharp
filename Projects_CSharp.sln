@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "For_Structure_Exercise_2", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "For_Structure_Exercise_3", "For_Structure_Exercise_3\For_Structure_Exercise_3.csproj", "{FE9045E8-E920-4883-ADD3-95369C7CECA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem_Without_OOP", "Problem_Without_OOP\Problem_Without_OOP.csproj", "{703BB315-8C65-4C79-B18F-5781733975A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem_With_OOP", "Problem_Without_OOP\Problem_With_OOP.csproj", "{703BB315-8C65-4C79-B18F-5781733975A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
