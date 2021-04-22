@@ -12,10 +12,8 @@ namespace Problem_With_OOP_2
             string nome = Console.ReadLine();
             Console.Write("Preço: ");
             double preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            Console.Write("Quantidade em estoque: ");
-            int quantidade = int.Parse(Console.ReadLine());
             
-            Produto p = new Produto(nome, quantidade, preco);
+            Produto p = new Produto(nome, preco);
             Console.WriteLine("\nDados do produto: " + p);
 
             Console.Write("\nAdicionar produtos ao estoque: ");
