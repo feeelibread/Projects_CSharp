@@ -5,8 +5,8 @@ namespace Problem_With_OOP_2
     class Produto
     {
         private string _nome;
-        private int _quantidade;
-        private double _preco;
+        public int Quantidade { get; private set; }
+        public double Preco { get; private set; }
 
         public Produto()
         {
@@ -15,12 +15,12 @@ namespace Problem_With_OOP_2
         public Produto(string nome, double preco)
         {
             _nome = nome;
-            _preco = preco;
+            Preco = preco;
         }
 
         public Produto(string nome, int quantidade, double preco) : this(nome, preco)
         {
-            _quantidade = quantidade;
+            Quantidade = quantidade;
         }
 
         public string Nome
@@ -33,16 +33,6 @@ namespace Problem_With_OOP_2
             }
         }
 
-        public int Quantidade
-        {
-            get { return _quantidade; }
-        }
-
-        public double Preco
-        {
-            get { return _preco; }
-        }
-
         public double ValorTotalEmEstoque()
         {
             return Quantidade * Preco;
@@ -50,12 +40,12 @@ namespace Problem_With_OOP_2
 
         public void AdicionarProdutos(int quantidade)
         {
-            _quantidade += quantidade;
+            Quantidade += quantidade;
         }
 
         public void RemoverProdutos(int quantidade)
         {
-            _quantidade -= quantidade;
+            Quantidade -= quantidade;
         }
 
         public override string ToString()
