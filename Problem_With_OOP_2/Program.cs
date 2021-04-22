@@ -7,20 +7,21 @@ namespace Problem_With_OOP_2
     {
         static void Main(string[] args)
         {
-            Produto p = new Produto();
             Console.WriteLine("Entre com os dados do produto:");
             Console.Write("Nome: ");
-            p.Nome = Console.ReadLine();
+            string nome = Console.ReadLine();
             Console.Write("Preço: ");
-            p.Preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            double preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             Console.Write("Quantidade em estoque: ");
-            p.Quantidade = int.Parse(Console.ReadLine());
+            int quantidade = int.Parse(Console.ReadLine());
+            
+            Produto p = new Produto(nome, quantidade, preco);
             Console.WriteLine("\nDados do produto: " + p);
 
             Console.Write("\nAdicionar produtos ao estoque: ");
             int qte = int.Parse(Console.ReadLine());
             p.AdicionarProdutos(qte);
-            
+
             Console.WriteLine("\nDados atualizados: " + p);
 
             Console.Write("\nRemover produtos do estoque: ");
@@ -28,6 +29,7 @@ namespace Problem_With_OOP_2
             p.RemoverProdutos(qte);
 
             Console.WriteLine("\nDados atualizados: " + p);
+
         }
     }
 }

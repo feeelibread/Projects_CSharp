@@ -1,5 +1,4 @@
-﻿using System;
-using System.Globalization;
+﻿using System.Globalization;
 
 namespace Problem_With_OOP_2
 {
@@ -8,6 +7,13 @@ namespace Problem_With_OOP_2
         public string Nome;
         public int Quantidade;
         public double Preco;
+
+        public Produto(string nome, int quantidade, double preco)
+        {
+            Nome = nome;
+            Quantidade = quantidade;
+            Preco = preco;
+        }
 
         public double ValorTotalEmEstoque()
         {
