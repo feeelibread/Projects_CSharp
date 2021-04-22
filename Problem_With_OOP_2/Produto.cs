@@ -4,9 +4,9 @@ namespace Problem_With_OOP_2
 {
     class Produto
     {
-        public string Nome;
-        public int Quantidade;
-        public double Preco;
+        private string _nome;
+        private int _quantidade;
+        private double _preco;
 
         public Produto()
         {
@@ -14,13 +14,33 @@ namespace Problem_With_OOP_2
 
         public Produto(string nome, double preco)
         {
-            Nome = nome;
-            Preco = preco;
+            _nome = nome;
+            _preco = preco;
         }
 
         public Produto(string nome, int quantidade, double preco) : this(nome, preco)
         {
-            Quantidade = quantidade;
+            _quantidade = quantidade;
+        }
+
+        public string Nome
+        {
+            get { return _nome; }
+            set
+            {
+                if (value != null && value.Length > 1)
+                    _nome = value;
+            }
+        }
+
+        public int Quantidade
+        {
+            get { return _quantidade; }
+        }
+
+        public double Preco
+        {
+            get { return _preco; }
         }
 
         public double ValorTotalEmEstoque()
@@ -30,12 +50,12 @@ namespace Problem_With_OOP_2
 
         public void AdicionarProdutos(int quantidade)
         {
-            Quantidade += quantidade;
+            _quantidade += quantidade;
         }
 
         public void RemoverProdutos(int quantidade)
         {
-            Quantidade -= quantidade;
+            _quantidade -= quantidade;
         }
 
         public override string ToString()
