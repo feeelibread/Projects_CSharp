@@ -6,6 +6,8 @@ namespace Nullable_Types_02
     {
         static void Main(string[] args)
         {
+            //Nullable conditional operator "??"
+
             double? x = null;
             double? y = 10;
 
