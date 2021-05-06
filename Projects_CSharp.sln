@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vect_Exercise_1", "Vect_Exe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vect_Exercise_2", "Vect_Exercise_2\Vect_Exercise_2.csproj", "{BA85C3B2-FCF0-448C-804E-8944585C9C74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vect_Exercise_3", "Vect_Exercise_3\Vect_Exercise_3.csproj", "{32FC8565-E208-4702-A175-0AB711EFB474}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vect_Exercise_3", "Vect_Exercise_3\Vect_Exercise_3.csproj", "{32FC8565-E208-4702-A175-0AB711EFB474}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vect_Exercise_3.1", "Vect_Exercise_3.1\Vect_Exercise_3.1.csproj", "{134D64B1-1F04-47FB-A314-E16A66A89D08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{32FC8565-E208-4702-A175-0AB711EFB474}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32FC8565-E208-4702-A175-0AB711EFB474}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32FC8565-E208-4702-A175-0AB711EFB474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{134D64B1-1F04-47FB-A314-E16A66A89D08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{134D64B1-1F04-47FB-A314-E16A66A89D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{134D64B1-1F04-47FB-A314-E16A66A89D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{134D64B1-1F04-47FB-A314-E16A66A89D08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
