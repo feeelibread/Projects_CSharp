@@ -41,7 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vect_Exercise_3", "Vect_Exe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vect_Exercise_3.1", "Vect_Exercise_3.1\Vect_Exercise_3.1.csproj", "{134D64B1-1F04-47FB-A314-E16A66A89D08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{73298985-A51F-4743-9158-C9D1991B49D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Calculator.csproj", "{73298985-A51F-4743-9158-C9D1991B49D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator_2", "Calculator_2\Calculator_2.csproj", "{F4AADC1A-C749-4D51-B101-B76087099DF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{73298985-A51F-4743-9158-C9D1991B49D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73298985-A51F-4743-9158-C9D1991B49D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73298985-A51F-4743-9158-C9D1991B49D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4AADC1A-C749-4D51-B101-B76087099DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4AADC1A-C749-4D51-B101-B76087099DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4AADC1A-C749-4D51-B101-B76087099DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4AADC1A-C749-4D51-B101-B76087099DF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
