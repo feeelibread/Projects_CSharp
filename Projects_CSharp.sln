@@ -43,9 +43,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vect_Exercise_3.1", "Vect_E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Calculator.csproj", "{73298985-A51F-4743-9158-C9D1991B49D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator_2", "Calculator_2\Calculator_2.csproj", "{F4AADC1A-C749-4D51-B101-B76087099DF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator_2", "Calculator_2\Calculator_2.csproj", "{F4AADC1A-C749-4D51-B101-B76087099DF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator_3", "Calculator_3\Calculator_3.csproj", "{73FF82AA-81BC-46C3-9C37-9B1415ECDD78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator_3", "Calculator_3\Calculator_3.csproj", "{73FF82AA-81BC-46C3-9C37-9B1415ECDD78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxing_Unboxing", "Boxing_Unboxing\Boxing_Unboxing.csproj", "{AE59A6C7-3EF3-49B7-A0DC-F0F6995B5077}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{73FF82AA-81BC-46C3-9C37-9B1415ECDD78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73FF82AA-81BC-46C3-9C37-9B1415ECDD78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73FF82AA-81BC-46C3-9C37-9B1415ECDD78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE59A6C7-3EF3-49B7-A0DC-F0F6995B5077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE59A6C7-3EF3-49B7-A0DC-F0F6995B5077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE59A6C7-3EF3-49B7-A0DC-F0F6995B5077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE59A6C7-3EF3-49B7-A0DC-F0F6995B5077}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
