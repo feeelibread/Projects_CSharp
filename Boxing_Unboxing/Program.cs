@@ -10,6 +10,8 @@ namespace Boxing_Unboxing
             Object obj = x;
             Console.WriteLine(obj);
 
+            int y = (int)obj;
+            Console.WriteLine(y);
         }
     }
 }
