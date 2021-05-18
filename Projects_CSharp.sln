@@ -47,7 +47,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator_2", "Calculator_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator_3", "Calculator_3\Calculator_3.csproj", "{73FF82AA-81BC-46C3-9C37-9B1415ECDD78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxing_Unboxing", "Boxing_Unboxing\Boxing_Unboxing.csproj", "{AE59A6C7-3EF3-49B7-A0DC-F0F6995B5077}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boxing_Unboxing", "Boxing_Unboxing\Boxing_Unboxing.csproj", "{AE59A6C7-3EF3-49B7-A0DC-F0F6995B5077}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List_Type", "List_Type\List_Type.csproj", "{D83FBA65-EB21-42F6-84A3-B3F46DD2C0B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{AE59A6C7-3EF3-49B7-A0DC-F0F6995B5077}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE59A6C7-3EF3-49B7-A0DC-F0F6995B5077}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE59A6C7-3EF3-49B7-A0DC-F0F6995B5077}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D83FBA65-EB21-42F6-84A3-B3F46DD2C0B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D83FBA65-EB21-42F6-84A3-B3F46DD2C0B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D83FBA65-EB21-42F6-84A3-B3F46DD2C0B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D83FBA65-EB21-42F6-84A3-B3F46DD2C0B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
