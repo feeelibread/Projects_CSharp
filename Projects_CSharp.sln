@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator_3", "Calculator_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boxing_Unboxing", "Boxing_Unboxing\Boxing_Unboxing.csproj", "{AE59A6C7-3EF3-49B7-A0DC-F0F6995B5077}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List_Type", "List_Type\List_Type.csproj", "{D83FBA65-EB21-42F6-84A3-B3F46DD2C0B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "List_Type", "List_Type\List_Type.csproj", "{D83FBA65-EB21-42F6-84A3-B3F46DD2C0B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List_Exercise", "List_Exercise\List_Exercise.csproj", "{4AF15505-F474-4D9A-8C26-DA1098142A6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{D83FBA65-EB21-42F6-84A3-B3F46DD2C0B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D83FBA65-EB21-42F6-84A3-B3F46DD2C0B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D83FBA65-EB21-42F6-84A3-B3F46DD2C0B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AF15505-F474-4D9A-8C26-DA1098142A6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AF15505-F474-4D9A-8C26-DA1098142A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AF15505-F474-4D9A-8C26-DA1098142A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AF15505-F474-4D9A-8C26-DA1098142A6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
