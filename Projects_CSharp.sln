@@ -57,7 +57,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "List_Exercise_2", "List_Exe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loop_Benchmark", "Loop_Benchmark\Loop_Benchmark.csproj", "{61602150-4DAF-4831-84E0-D0A235EACAA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix_Structure", "Matrix_Structure\Matrix_Structure.csproj", "{738FF01B-25FA-4DD2-B3EA-2BF54CD15032}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matrix_Structure", "Matrix_Structure\Matrix_Structure.csproj", "{738FF01B-25FA-4DD2-B3EA-2BF54CD15032}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix_Structure_2", "Matrix_Structure_2\Matrix_Structure_2.csproj", "{18DF23E7-CBEA-4D65-A006-57320F6AE571}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{738FF01B-25FA-4DD2-B3EA-2BF54CD15032}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{738FF01B-25FA-4DD2-B3EA-2BF54CD15032}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{738FF01B-25FA-4DD2-B3EA-2BF54CD15032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18DF23E7-CBEA-4D65-A006-57320F6AE571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18DF23E7-CBEA-4D65-A006-57320F6AE571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18DF23E7-CBEA-4D65-A006-57320F6AE571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18DF23E7-CBEA-4D65-A006-57320F6AE571}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
