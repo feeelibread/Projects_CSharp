@@ -7,9 +7,27 @@ namespace Vect_Exercises
     {
         static void Main(string[] args)
         {
-            //Exercise1();
-            //Exercise2();
+            Console.WriteLine("Select one number of the exercises below:");
+            Console.WriteLine("1 - To read and print the vector");
+            Console.WriteLine("2 - Show the even numbers and how many it has");
+            Console.WriteLine("3 - Arithmetic mean of the elements and show the numbers there are below of the mean");
+            int x = int.Parse(Console.ReadLine());
 
+            switch (x)
+            {
+                case 1:
+                    Exercise1();
+                    break;
+                case 2:
+                    Exercise2();
+                    break;
+                case 3:
+                    Exercise3();
+                    break;
+                default:
+                    Console.WriteLine("Invalid exercise");
+                    break;
+            }
         }
 
         static void Exercise1()
@@ -48,7 +66,24 @@ namespace Vect_Exercises
         {
             int n = int.Parse(Console.ReadLine());
             double[] vect = new double[n];
+            string[] s = Console.ReadLine().Split(' ');
+            double avg = 0;
 
+            for (int i = 0; i < vect.Length; i++)
+            {
+                vect[i] = double.Parse(s[i], CultureInfo.InvariantCulture);
+                avg += vect[i] / n;
+            }
+
+            Console.WriteLine(avg.ToString("F3", CultureInfo.InvariantCulture));
+           
+            for (int i = 0; i < vect.Length; i++)
+            {
+                if (vect[i] < avg)
+                {
+                    Console.WriteLine(vect[i].ToString(CultureInfo.InvariantCulture));
+                }
+            }
 
         }
 
