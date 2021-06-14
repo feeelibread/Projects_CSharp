@@ -42,7 +42,7 @@ namespace String_Functions
             Console.WriteLine("-----------------------------------------------------");
             Console.WriteLine("Is null or white space: " + b2);
 
-            Convert.
+            
         }
     }
 }
