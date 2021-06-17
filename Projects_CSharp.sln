@@ -73,7 +73,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vect_Exercises", "Vect_Exer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ternary_Operator", "Ternary_Operator\Ternary_Operator.csproj", "{D511EDCF-687A-4611-801F-36D8BFC91353}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String_Functions", "String_Functions\String_Functions.csproj", "{419CF997-DFA5-4A90-AE51-4A7395362994}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "String_Functions", "String_Functions\String_Functions.csproj", "{419CF997-DFA5-4A90-AE51-4A7395362994}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTime_Type", "DateTime_Type\DateTime_Type.csproj", "{24AB332A-5E22-4181-98C9-3AAA9CD236F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -225,6 +227,10 @@ Global
 		{419CF997-DFA5-4A90-AE51-4A7395362994}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{419CF997-DFA5-4A90-AE51-4A7395362994}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{419CF997-DFA5-4A90-AE51-4A7395362994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24AB332A-5E22-4181-98C9-3AAA9CD236F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24AB332A-5E22-4181-98C9-3AAA9CD236F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24AB332A-5E22-4181-98C9-3AAA9CD236F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24AB332A-5E22-4181-98C9-3AAA9CD236F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
