@@ -75,7 +75,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ternary_Operator", "Ternary
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "String_Functions", "String_Functions\String_Functions.csproj", "{419CF997-DFA5-4A90-AE51-4A7395362994}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTime_Type", "DateTime_Type\DateTime_Type.csproj", "{24AB332A-5E22-4181-98C9-3AAA9CD236F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTime_Type", "DateTime_Type\DateTime_Type.csproj", "{24AB332A-5E22-4181-98C9-3AAA9CD236F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeSpan_Type", "TimeSpan_Type\TimeSpan_Type.csproj", "{1B55E58D-3E91-402E-A5F3-157D6E5E2140}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -231,6 +233,10 @@ Global
 		{24AB332A-5E22-4181-98C9-3AAA9CD236F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24AB332A-5E22-4181-98C9-3AAA9CD236F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24AB332A-5E22-4181-98C9-3AAA9CD236F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B55E58D-3E91-402E-A5F3-157D6E5E2140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B55E58D-3E91-402E-A5F3-157D6E5E2140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B55E58D-3E91-402E-A5F3-157D6E5E2140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B55E58D-3E91-402E-A5F3-157D6E5E2140}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
