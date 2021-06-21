@@ -12,5 +12,5 @@ using Shibata_Web.Models;
         {
         }
 
-        public DbSet<Shibata_Web.Models.UsuarioViewModel> UsuarioViewModel { get; set; }
+        public DbSet<Shibata_Web.Models.UsuarioViewModel> Usuarios { get; set; }
     }
