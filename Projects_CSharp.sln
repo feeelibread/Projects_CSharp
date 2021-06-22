@@ -85,6 +85,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shibata_Web", "Shibata_Web\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Properties_With_TimeSpan", "Properties_With_TimeSpan\Properties_With_TimeSpan.csproj", "{B71D5A93-2447-4C9D-8E44-E663BFCC4803}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeKind_Function", "DateTimeKind_Function\DateTimeKind_Function.csproj", "{35AE40A0-8E74-4595-958C-A6DC46CB7B34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extension_Methods", "Extension_Methods\Extension_Methods.csproj", "{4560A89F-4322-4EEA-8873-643DEE112E4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -255,6 +259,14 @@ Global
 		{B71D5A93-2447-4C9D-8E44-E663BFCC4803}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B71D5A93-2447-4C9D-8E44-E663BFCC4803}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B71D5A93-2447-4C9D-8E44-E663BFCC4803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35AE40A0-8E74-4595-958C-A6DC46CB7B34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35AE40A0-8E74-4595-958C-A6DC46CB7B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35AE40A0-8E74-4595-958C-A6DC46CB7B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35AE40A0-8E74-4595-958C-A6DC46CB7B34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4560A89F-4322-4EEA-8873-643DEE112E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4560A89F-4322-4EEA-8873-643DEE112E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4560A89F-4322-4EEA-8873-643DEE112E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4560A89F-4322-4EEA-8873-643DEE112E4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
