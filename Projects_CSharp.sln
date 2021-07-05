@@ -93,9 +93,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enum_Type", "Enum_Type\Enum
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enum_Exercise", "Enum_Exercise\Enum_Exercise.csproj", "{EE79E1C7-9B70-42C8-96BE-00CC152EA39E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composition_Exercise", "Composition_Exercise\Composition_Exercise.csproj", "{3EEA12C7-2C82-47F4-9C99-86E94BC6DCF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composition_Exercise", "Composition_Exercise\Composition_Exercise.csproj", "{3EEA12C7-2C82-47F4-9C99-86E94BC6DCF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compostion_Exercise_2", "Compostion_Exercise_2\Compostion_Exercise_2.csproj", "{54ED131B-66CB-42D3-A128-61267CE2B516}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Compostion_Exercise_2", "Compostion_Exercise_2\Compostion_Exercise_2.csproj", "{54ED131B-66CB-42D3-A128-61267CE2B516}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance_OOP", "Inheritance_OOP\Inheritance_OOP.csproj", "{677DA2B8-7F87-40E5-B2A9-67355CFF5367}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -291,6 +293,10 @@ Global
 		{54ED131B-66CB-42D3-A128-61267CE2B516}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54ED131B-66CB-42D3-A128-61267CE2B516}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54ED131B-66CB-42D3-A128-61267CE2B516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{677DA2B8-7F87-40E5-B2A9-67355CFF5367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{677DA2B8-7F87-40E5-B2A9-67355CFF5367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{677DA2B8-7F87-40E5-B2A9-67355CFF5367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{677DA2B8-7F87-40E5-B2A9-67355CFF5367}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
