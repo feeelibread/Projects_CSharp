@@ -7,9 +7,32 @@ namespace Inheritance_OOP
     {
         static void Main(string[] args)
         {
-            BusinessAccount account = new BusinessAccount(1008, "Felipe", 1200.00, 200);
-            Console.WriteLine(account.Balance);
-            
+            Account acc = new Account(1001, "James", 1200.00);
+            BusinessAccount bacc = new BusinessAccount(1002, "Maria", 3000.00, 200.0);
+
+            //UPCASTING - Converting a subclass to a superclass. This process is called Upcast
+            Account acc1 = bacc;
+            Account acc2 = new BusinessAccount(1003, "Hodor", 1500.0, 150.0);
+            Account acc3 = new SavingsAccount(1004, "Alana", 1300.0, 250.0);
+
+            //DOWNCASTING - Conerting a superclass to a subclass. This process is called Downcast
+            BusinessAccount acc4 = (BusinessAccount)acc2;
+            acc4.Loan(10);
+
+            if (acc3 is BusinessAccount)
+            {
+                BusinessAccount acc5 = acc3 as BusinessAccount;
+                acc5.Loan(150.0);
+                Console.WriteLine("Loan!");
+            }
+
+            if (acc3 is SavingsAccount)
+            {
+                SavingsAccount acc5 = acc3 as SavingsAccount;
+                acc5.UpdateBalance();
+                Console.WriteLine("Update!");
+            }
+
         }
     }
 }
