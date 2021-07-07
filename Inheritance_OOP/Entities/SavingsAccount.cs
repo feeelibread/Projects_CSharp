@@ -17,5 +17,12 @@ namespace Inheritance_OOP.Entities
         {
             Balance += Balance * InterestRate;
         }
+
+        public override void Withdraw(double amount)
+        {
+            base.Withdraw(amount);
+            Balance -= 2;
+        }
+
     }
 }

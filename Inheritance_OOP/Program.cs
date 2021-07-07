@@ -7,6 +7,23 @@ namespace Inheritance_OOP
     {
         static void Main(string[] args)
         {
+            Casting();
+            OverrideAndVirtual();
+
+        }
+
+        private static void OverrideAndVirtual()
+        {
+            Account acc = new Account(1002, "Allan", 500.00);
+            Account acc2 = new SavingsAccount(1003, "Robert", 500.00, 0.0);
+            acc.Withdraw(100);
+            acc2.Withdraw(100);
+            Console.WriteLine(acc.Balance);
+            Console.WriteLine(acc2.Balance);
+        }
+
+        private static void Casting()
+        {
             Account acc = new Account(1001, "James", 1200.00);
             BusinessAccount bacc = new BusinessAccount(1002, "Maria", 3000.00, 200.0);
 
@@ -32,7 +49,6 @@ namespace Inheritance_OOP
                 acc5.UpdateBalance();
                 Console.WriteLine("Update!");
             }
-
         }
     }
 }
