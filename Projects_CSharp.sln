@@ -101,7 +101,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance_OOP", "Inherita
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance_Exercise", "Inheritance_Exercise\Inheritance_Exercise.csproj", "{AF647BC7-E573-48EA-8D52-CBFBEB470E1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance_Exercise_2", "Inheritance_Exercise_2\Inheritance_Exercise_2.csproj", "{9723C24C-C1D8-4B2A-AE71-B51958228D43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance_Exercise_2", "Inheritance_Exercise_2\Inheritance_Exercise_2.csproj", "{9723C24C-C1D8-4B2A-AE71-B51958228D43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract_Exercise", "Abstract_Exercise\Abstract_Exercise.csproj", "{6F698715-25B6-4527-9DBC-BB7B566ECB91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -309,6 +311,10 @@ Global
 		{9723C24C-C1D8-4B2A-AE71-B51958228D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9723C24C-C1D8-4B2A-AE71-B51958228D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9723C24C-C1D8-4B2A-AE71-B51958228D43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F698715-25B6-4527-9DBC-BB7B566ECB91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F698715-25B6-4527-9DBC-BB7B566ECB91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F698715-25B6-4527-9DBC-BB7B566ECB91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F698715-25B6-4527-9DBC-BB7B566ECB91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
