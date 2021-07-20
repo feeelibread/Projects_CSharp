@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+using Try_Catch_2.Entities.Exceptions;
 namespace Try_Catch_2.Entities
 {
     class Reservation
@@ -12,27 +10,31 @@ namespace Try_Catch_2.Entities
 
         public Reservation(int roomNumber, DateTime checkIn, DateTime checkOut)
         {
+            if (checkOut <= checkIn)
+            {
+                throw new DomainException("The check-out date must be after than the check-in date!");
+            }
+
             RoomNumber = roomNumber;
             CheckIn = checkIn;
             CheckOut = checkOut;
         }
 
-        public string UpdateDates(DateTime checkIn, DateTime checkOut)
+        public void UpdateDates(DateTime checkIn, DateTime checkOut)
         {
             DateTime now = DateTime.Now;
 
             if (checkIn < now || checkOut < now)
             {
-                return "Reservation dates for update must be future dates!";
+                throw new DomainException("Reservation dates for update must be future dates!");
             }
             if (checkOut <= checkIn)
             {
-                return "The check-out date must be after than the check-in date!";
+                throw new DomainException("The check-out date must be after than the check-in date!");
             }
 
             CheckIn = checkIn;
             CheckOut = checkOut;
-            return null;
         }
 
         public int Duration()
