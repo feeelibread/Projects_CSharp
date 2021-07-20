@@ -17,10 +17,22 @@ namespace Try_Catch_2.Entities
             CheckOut = checkOut;
         }
 
-        public void UpdateDates(DateTime checkIn, DateTime checkOut)
+        public string UpdateDates(DateTime checkIn, DateTime checkOut)
         {
+            DateTime now = DateTime.Now;
+
+            if (checkIn < now || checkOut < now)
+            {
+                return "Reservation dates for update must be future dates!";
+            }
+            if (checkOut <= checkIn)
+            {
+                return "The check-out date must be after than the check-in date!";
+            }
+
             CheckIn = checkIn;
             CheckOut = checkOut;
+            return null;
         }
 
         public int Duration()
