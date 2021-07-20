@@ -33,8 +33,12 @@ namespace Try_Catch_2
                 {
                     Console.WriteLine("Error in reservation: Reservation dates for update must be future dates!");
                 }
+                else if (checkOut <= checkIn)
+                {
+                    Console.WriteLine("Error! The check-out date must be after than the check-in date!");
+                }
                 else
-                { 
+                {
                     reservation.UpdateDates(checkIn, checkOut);
                     Console.WriteLine("\nUpdated date: " + reservation);
                 }
