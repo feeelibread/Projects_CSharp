@@ -13,9 +13,11 @@ namespace FIles_2
             try
             {
                 sr = File.OpenText(path);
-                string line = sr.ReadToEnd();
-                Console.WriteLine(line);
-
+                while (!sr.EndOfStream)
+                {
+                    string line = sr.ReadLine();
+                    Console.WriteLine(line);
+                }
             }
             catch (Exception e)
             {
