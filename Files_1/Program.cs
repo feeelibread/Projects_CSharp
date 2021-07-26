@@ -7,8 +7,8 @@ namespace Files_1
     {
         static void Main(string[] args)
         {
-            string sourcePath = @"C:\Users\Public\file1.txt";
-            string targetPath = @"C:\Users\Public\file2.txt";
+            string sourcePath = @"C:\temp\file1.txt";
+            string targetPath = @"C:\temp\file2.txt";
 
             try
             {
