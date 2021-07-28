@@ -12,8 +12,7 @@ namespace Files_3
 
             try
             {
-                using FileStream fs = new FileStream(path, FileMode.Open);
-                using StreamReader sr = new StreamReader(fs);
+                using StreamReader sr = File.OpenText(path);
                 while (!sr.EndOfStream)
                 {
                     string line = sr.ReadLine();
@@ -22,11 +21,9 @@ namespace Files_3
             }
             catch (IOException e)
             {
-
                 Console.WriteLine("An error has ocurred");
                 Console.WriteLine(e.Message);
             }
-
         }
     }
 }
