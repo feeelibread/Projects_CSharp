@@ -24,6 +24,15 @@ namespace Directory_1
                 {
                     Console.WriteLine(item);
                 }
+
+                Directory.CreateDirectory(path + @"\myDirectory");
+                folders = Directory.EnumerateDirectories(path, "*.*", SearchOption.AllDirectories);
+                
+                Console.WriteLine("\nNEW DIRECTORIES:");
+                foreach (string item in folders)
+                {
+                    Console.WriteLine(item);
+                }
             }
             catch (IOException e)
             {
