@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace Files_1
+namespace Files_4
 {
     class Program
     {
@@ -12,19 +12,17 @@ namespace Files_1
             
             try
             {
-                FileInfo fileInfo = new FileInfo(sourcePath);
-                fileInfo.CopyTo(targetPath);
-
-                string[] lines = File.ReadAllLines(targetPath);
+                string[] lines = File.ReadAllLines(sourcePath);
+                using StreamWriter sw = File.AppendText(targetPath);
                 foreach (string item in lines)
                 {
-                    Console.WriteLine(item);
+                    sw.WriteLine(item.ToLower());
                 }
             }
             catch (IOException e)
             {
 
-                Console.WriteLine("An error ocurred");
+                Console.WriteLine("An error has ocurred");
                 Console.WriteLine(e.Message);
             }
         }
