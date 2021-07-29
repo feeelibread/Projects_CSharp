@@ -1,6 +1,5 @@
 ﻿using System;
 using System.IO;
-using System.Collections.Generic;
 
 namespace Directory_1
 {
@@ -12,7 +11,7 @@ namespace Directory_1
 
             try
             {
-                IEnumerable<string> folders = Directory.EnumerateDirectories(path, "*.*", SearchOption.AllDirectories);
+                var folders = Directory.EnumerateDirectories(path, "*.*", SearchOption.AllDirectories);
                 foreach (string item in folders)
                 {
                     Console.WriteLine(item);
