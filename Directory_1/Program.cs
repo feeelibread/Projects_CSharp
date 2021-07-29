@@ -12,7 +12,15 @@ namespace Directory_1
             try
             {
                 var folders = Directory.EnumerateDirectories(path, "*.*", SearchOption.AllDirectories);
+                Console.WriteLine("DIRECTORIES:");
                 foreach (string item in folders)
+                {
+                    Console.WriteLine(item);
+                }
+
+                var files = Directory.EnumerateFiles(path, "*.*", SearchOption.AllDirectories);
+                Console.WriteLine("\nFILES:");
+                foreach (var item in files)
                 {
                     Console.WriteLine(item);
                 }
