@@ -141,7 +141,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics_1", "Generics_1\Ge
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics_2", "Generics_2\Generics_2.csproj", "{237B213B-4408-4602-BB83-D3682B8E470B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equals_HasCode", "Equals_HasCode\Equals_HasCode.csproj", "{0FD3DB9F-356D-489B-9A25-81100471FC03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Equals_HashCode", "Equals_HasCode\Equals_HashCode.csproj", "{0FD3DB9F-356D-489B-9A25-81100471FC03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

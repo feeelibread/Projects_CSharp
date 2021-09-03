@@ -15,6 +15,10 @@ namespace Equals_HasCode.Entities
             Email = email;
         }
 
+        public Client()
+        {
+        }
+
         public override bool Equals(object obj)
         {
             if (!(obj is Client))

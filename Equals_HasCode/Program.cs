@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Equals_HasCode.Entities;
+using System;
 
 namespace Equals_HasCode
 {
@@ -6,15 +7,13 @@ namespace Equals_HasCode
     {
         static void Main(string[] args)
         {
-            string a = "maria";
-            string b = "roberto";
+            Client client1 = new Client { Name = "Robert", Email = "robert@gmail.com" };
+            Client client2 = new Client { Name = "Maria", Email = "maria@gmail.com" };
 
-            Console.WriteLine(a.Equals(b));
+            Console.WriteLine(client1.Equals(client2));
 
-            //If the code of objects is different, probably they are different. It has a chance do "collide"
-            //and generate the same hash code for different objects, but hardly ever happens
-            Console.WriteLine(a.GetHashCode());
-            Console.WriteLine(b.GetHashCode());
+            Console.WriteLine(client2.GetHashCode());
+            Console.WriteLine(client1.GetHashCode());
         }
     }
 }
