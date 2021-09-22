@@ -145,7 +145,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Equals_HashCode", "Equals_H
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashSet_SortedSet", "HashSet_SortedSet\HashSet_SortedSet.csproj", "{877DE15F-331D-470A-8DF5-F1D6313A4303}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashSet_SortedSet_2", "HashSet_SortedSet_2\HashSet_SortedSet_2.csproj", "{FE82DBFB-3F13-421D-8F52-06888716573A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashSet_SortedSet_2", "HashSet_SortedSet_2\HashSet_SortedSet_2.csproj", "{FE82DBFB-3F13-421D-8F52-06888716573A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashSet_Exercise", "HashSet_Exercise\HashSet_Exercise.csproj", "{5B051DBF-3E15-4513-BA06-6CFFED4989BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -441,6 +443,10 @@ Global
 		{FE82DBFB-3F13-421D-8F52-06888716573A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE82DBFB-3F13-421D-8F52-06888716573A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE82DBFB-3F13-421D-8F52-06888716573A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B051DBF-3E15-4513-BA06-6CFFED4989BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B051DBF-3E15-4513-BA06-6CFFED4989BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B051DBF-3E15-4513-BA06-6CFFED4989BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B051DBF-3E15-4513-BA06-6CFFED4989BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
