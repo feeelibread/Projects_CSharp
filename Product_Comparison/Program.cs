@@ -13,17 +13,16 @@ namespace Product_Comparison
             list.Add(new Product("Alexa", 350.00));
             list.Add(new Product("Notebook", 8900.00));
 
-            list.Sort(CompareProducts);
+            Comparison<Product> comp = (p1, p2) => p1.Name.ToUpper().CompareTo(p2.Name.ToUpper());
+
+            list.Sort(comp);
+
             foreach (var item in list)
             {
                 Console.WriteLine(item);
             }
         }
 
-        static int CompareProducts(Product p1, Product p2)
-        {
-            return p1.Name.ToUpper().CompareTo(p2.Name.ToUpper());
-        }
     }
 
 }
