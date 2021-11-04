@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Product_Comparison.Entities
 {
-    class Product : IComparable<Product>
+    class Product
     {
         public string Name { get; set; }
         public double Price { get; set; }
@@ -22,9 +22,5 @@ namespace Product_Comparison.Entities
             return $"{Name}, {Price.ToString("C2")}";
         }
 
-        public int CompareTo([AllowNull] Product other)
-        {
-            return Name.ToUpper().CompareTo(other.Name.ToUpper());
-        }
     }
 }
