@@ -3,12 +3,10 @@
 double a = 10;
 double b = 5;
 
-double result = CalculationService.Max(a, b);
+BinaryNumericOperator op = CalculationService.Sum;
+
+double result = op(a, b);
 Console.WriteLine(result);
 
-result = CalculationService.Sum(a, b);
-Console.WriteLine(result);
-
-CalculationService.Square(a);
-Console.WriteLine(result);
+delegate double BinaryNumericOperator(double n1, double n2);
 
