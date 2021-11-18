@@ -17,9 +17,7 @@ namespace Delegates_2
             list.Add(new Product("Table", 349.99));
             list.Add(new Product("HD Case", 80.00));
 
-            Action<Product> act = p => { p.Price += p.Price * 0.1; };
-
-            list.ForEach(act);
+            list.ForEach(p => { p.Price += p.Price * 0.1; });
 
             foreach (var item in list)
             {
