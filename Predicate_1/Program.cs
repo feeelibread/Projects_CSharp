@@ -16,8 +16,10 @@ namespace Delegates_2
             list.Add(new Product("Mouse", 50.00));
             list.Add(new Product("Table", 349.99));
             list.Add(new Product("HD Case", 80.00));
-            
-            list.ForEach(UpdatePrice);
+
+            Action<Product> act = UpdatePrice;
+
+            list.ForEach(act);
 
             foreach (var item in list)
             {
