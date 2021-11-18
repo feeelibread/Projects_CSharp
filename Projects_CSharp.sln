@@ -161,7 +161,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product_Comparison", "Produ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates_1", "Delegates_1\Delegates_1.csproj", "{391FBBC3-21B2-48F1-B9B4-93E52B08D886}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Predicate_1", "Predicate_1\Predicate_1.csproj", "{F1188BCB-5050-4E14-B968-72E1A51B8DCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates_2", "Predicate_1\Delegates_2.csproj", "{F1188BCB-5050-4E14-B968-72E1A51B8DCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Predicate_1.Entities
+namespace Delegates_2.Entities
 {
     internal class Product
     {
