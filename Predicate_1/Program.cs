@@ -20,7 +20,7 @@ namespace Delegates_2
 
             
 
-            List<string> result = list.Select(p => $"Name: {p.Name.ToUpper()}, Price: {p.Price.ToString("C2")}").ToList();
+            List<string> result = list.Select(p => $"Name: {p.Name.ToUpper()}, Price: {p.Price:C2}").ToList();
 
             foreach (var item in result)
             {
