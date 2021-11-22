@@ -18,7 +18,9 @@ namespace Delegates_2
             list.Add(new Product("Table", 349.99));
             list.Add(new Product("HD Case", 80.00));
 
-            List<string> result = list.Select(UpperNames).ToList();
+            Func<Product, string> upper = UpperNames;
+
+            List<string> result = list.Select(upper).ToList();
 
             foreach (var item in result)
             {
