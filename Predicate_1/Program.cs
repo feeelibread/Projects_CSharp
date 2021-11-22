@@ -18,7 +18,7 @@ namespace Delegates_2
             list.Add(new Product("Table", 349.99));
             list.Add(new Product("HD Case", 80.00));
 
-            Func<Product, string> upper = UpperNames;
+            Func<Product, string> upper = p => $"Name: {p.Name.ToUpper()}, Price: {p.Price.ToString("C2")}";
 
             List<string> result = list.Select(upper).ToList();
 
@@ -27,11 +27,6 @@ namespace Delegates_2
                 Console.WriteLine(item);
             }
 
-        }
-
-        static string UpperNames(Product p)
-        {
-            return p.Name.ToUpper();
         }
     }
 }

@@ -15,9 +15,5 @@ namespace Delegates_2.Entities
             Price = price;
         }
 
-        public override string ToString()
-        {
-            return $"{Name}, {Price.ToString("C2")}";
-        }
     }
 }
