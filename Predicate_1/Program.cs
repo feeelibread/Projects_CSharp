@@ -1,6 +1,7 @@
 ﻿using Delegates_2.Entities;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Delegates_2
 {
@@ -8,7 +9,7 @@ namespace Delegates_2
     {
         static void Main(string[] args)
         {
-            //Using Action delegate
+            //Using Func delegate
 
             List<Product> list = new List<Product>();
 
@@ -17,18 +18,18 @@ namespace Delegates_2
             list.Add(new Product("Table", 349.99));
             list.Add(new Product("HD Case", 80.00));
 
-            list.ForEach(p => { p.Price += p.Price * 0.1; });
+            List<string> result = list.Select(UpperNames).ToList();
 
-            foreach (var item in list)
+            foreach (var item in result)
             {
                 Console.WriteLine(item);
             }
 
         }
 
-        //static void UpdatePrice(Product p)
-        //{
-        //    p.Price += p.Price * 0.1;
-        //}
+        static string UpperNames(Product p)
+        {
+            return p.Name.ToUpper();
+        }
     }
 }
