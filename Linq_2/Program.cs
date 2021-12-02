@@ -36,20 +36,35 @@ namespace Linq_2
                 new Product() { Id = 11, Name = "Level", Price = 70.0, Category = c1 }
             };
 
-            var r1 = products.Where(p => p.Category.Tier == 1 && p.Price < 900.00);
+            //var r1 = products.Where(p => p.Category.Tier == 1 && p.Price < 900.00);
+            var r1 = from p in products
+                     where p.Category.Tier == 1 && p.Price < 900.00
+                     select p;
             PrintMessage("TIER 1 AND PRICE < 900.00:", r1);
 
-            var r2 = products.Where(p => p.Category.Name == "Tools").Select(p => p.Name.ToUpper());
+            //var r2 = products.Where(p => p.Category.Name == "Tools").Select(p => p.Name.ToUpper());
+            var r2 = from p in products
+                     where p.Category.Name == "Tools"
+                     select p.Name.ToUpper();
             PrintMessage("NAMES OF PRODUCTS FROM TOOLS:", r2);
 
-            var r3 = products.Where(p => p.Name[0] == 'C').Select(p => new { p.Name, p.Price, CategoryName = p.Category.Name });
-            PrintMessage("PRODUCTS THAT BEGINS WITH LETTER 'C':", r3);
+            //var r3 = products.Where(p => p.Name[0] == 'C').Select(p => new { p.Name, p.Price, CategoryName = p.Category.Name });
+            var r3 = from p in products
+                     where p.Name[0] == 'C'
+                     select new { p.Name, p.Price, CategoryName = p.Category.Name };
+            PrintMessage("PRODUCTS THAT BEGINS WITH LETTER 'C' AND ANONYMOUS OBJECTS:", r3);
 
-            var r4 = products.Where(p => p.Category.Tier == 1).OrderBy(p => p.Name).ThenBy(p => p.Price).Select(p => $"{p.Name}, {p.Price.ToString("C2")}");
-            PrintMessage("PRODUCTS TIER 1 ORDERED BY NAME THEN BY PRICE", r4);
+
+            //var r4 = products.Where(p => p.Category.Tier == 1).OrderBy(p => p.Name).ThenBy(p => p.Price).Select(p => $"{p.Name}, {p.Price.ToString("C2")}");
+            var r4 = from p in products
+                     where p.Category.Tier == 1
+                     orderby p.Name
+                     orderby p.Price
+                     select p;
+            PrintMessage("PRODUCTS TIER 1 ORDERED BY NAME THEN BY PRICE:", r4);
 
             var r5 = r4.Skip(2).Take(4);
-            PrintMessage("PRODUCTS TIER 1 ORDERED BY NAME THEN BY PRICE, SKIP (2), TAKE (4)", r5);
+            PrintMessage("PRODUCTS TIER 1 ORDERED BY NAME THEN BY PRICE, SKIP (2), TAKE (4):", r5);
 
             var r6 = products.First();
             Console.WriteLine("First or Default test1: " + r6);
@@ -77,7 +92,9 @@ namespace Linq_2
             Console.WriteLine("Category 1 aggregate sum: " + r15);
             Console.WriteLine();
 
-            var r16 = products.GroupBy(p => p.Category);
+            //var r16 = products.GroupBy(p => p.Category);
+            var r16 = from p in products
+                      group p by p.Category;
             foreach (IGrouping<Category, Product> item in r16)
             {
                 Console.WriteLine($"Category {item.Key.Name}:");
