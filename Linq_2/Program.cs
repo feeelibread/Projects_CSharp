@@ -104,11 +104,6 @@ namespace Linq_2
                 }
                 Console.WriteLine();
             }
-
-
-
-
-
         }
     }
 }
